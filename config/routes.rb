@@ -1,4 +1,7 @@
 LaAdventures::Application.routes.draw do
+  resources :adventures
+root to: 'adventures#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
